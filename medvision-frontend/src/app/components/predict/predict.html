@@ -1,0 +1,27 @@
+<div class="predict-ui" [style.justify-content]="result()? 'space-around' : 'space-between'">
+
+<div class="hero">
+<h1 class="hero-heading"><span class="hero-name">MEDVISION:</span> Transforming Healthcare with AI</h1>
+<p class="hero-text">Advanced Medical Imaging Diagnostics powered by Artificial Intelligence. Enhance clinical decision-making, speed and accuracy.</p>
+ <p-fileUpload
+mode="basic"
+name="file" 
+chooseLabel="Select Image" 
+icon="pi pi-plus"
+[auto]="true"
+(onSelect)="onUpload($event)"
+class="upload-button">
+</p-fileUpload>
+</div>
+  
+@if(result()){
+    <div class="output" >
+            <p-tag style="margin:15px; font-size: 25px;" [value]="result().prediction" [severity]="result().prediction == 'NORMAL' ? 'success' : 'danger' " ></p-tag>
+        <h3>Confidence Score</h3>
+        <p-progressbar [value]="result().confidence *100 | number: '1.0-2'" />
+        <img [src]="'http://localhost:8080' + result().heatmapPath" alt="Heatmap Image">
+        <p>Version: <b>{{result().modelVersion}}</b></p>
+    </div>
+}
+
+</div>

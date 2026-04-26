@@ -1,0 +1,26 @@
+p-menubar{
+    background-color: rgba(234, 232, 236, 0.8);
+    color:rebeccapurple;
+    backdrop-filter: blur(50px) saturate(120%);
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+a{
+    color:rebeccapurple;
+    text-decoration: none;
+    font-size: large;
+    margin:auto 20px;
+}
+
+
+
+.disclaimer{
+    margin-top: 0;
+    padding: 20px 15px;
+    margin-bottom: 0;
+
+}

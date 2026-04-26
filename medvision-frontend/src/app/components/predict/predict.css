@@ -1,0 +1,63 @@
+.predict-ui{
+    background-image: url("/medvisionBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+ .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap:2px;
+    width: 40%;
+    color:white;
+    font-size: 2rem;
+ }
+.hero-heading{
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.hero-name{
+    color:#d9c9ec;
+    font-size:4rem;
+}
+
+
+.output{
+    backdrop-filter: blur(16px) saturate(180%);
+    border-radius: 12px;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.59);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.prediction-div{
+    color:white;
+    margin:15px;
+    padding: 0 15px;
+}
+
+p-progressbar{
+    width: 100%;
+    margin:10px 0;
+}
+
+
+
+
+
+
