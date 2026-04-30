@@ -1,6 +1,6 @@
 # MedVision – AI Medical Image Analyzer
 <img width="1058" height="535" alt="image" src="https://github.com/user-attachments/assets/4ab77bf0-eb98-4f77-83fc-d15ea65238b4" />
-*Medvision Homepage*
+<strong>Medvision Homepage</strong>
 
 ## Project Overview
 
