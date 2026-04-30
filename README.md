@@ -32,6 +32,15 @@ MedVision helps improve:
 - PostgreSQL database integration
 - Prediction history tracking
 
+##  How MedVision Works
+
+1. User uploads X-ray image  
+2. Image sent to FastAPI AI service  
+3. Model (DenseNet121) predicts result  
+4. Grad-CAM generates heatmap  
+5. Spring Boot stores results  
+6. Angular displays output  
+
 ## Screenshots
 
 <img width="1091" height="548" alt="image" src="https://github.com/user-attachments/assets/28dc2d83-ce13-4149-82d6-751b3716f6d4" />
