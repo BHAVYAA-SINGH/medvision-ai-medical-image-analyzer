@@ -32,6 +32,20 @@ MedVision helps improve:
 - PostgreSQL database integration
 - Prediction history tracking
 
+## Screenshots
+
+<img width="1091" height="548" alt="image" src="https://github.com/user-attachments/assets/28dc2d83-ce13-4149-82d6-751b3716f6d4" />
+
+<img width="1079" height="548" alt="image" src="https://github.com/user-attachments/assets/2d9a54f6-3a4c-49ad-87f2-756175803158" />
+
+<img width="1080" height="533" alt="image" src="https://github.com/user-attachments/assets/b09de8d6-41b4-433b-82ec-480c33710f38" />
+
+<img width="1065" height="471" alt="image" src="https://github.com/user-attachments/assets/e98915f2-24b8-4a4e-8a0b-4d9ef59ed4ab" />
+
+<img width="1088" height="550" alt="image" src="https://github.com/user-attachments/assets/4baf02ec-e952-4c1f-b51a-89a92d0b1044" />
+
+<img width="1077" height="548" alt="image" src="https://github.com/user-attachments/assets/ae2bcfad-801b-4738-9f32-2f59f6f78236" />
+
 ## Future Scope 
 - Multi-disease detection
 - Multi-label classification
